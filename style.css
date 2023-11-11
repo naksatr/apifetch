@@ -1,0 +1,68 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-attachment: fixed;
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#form{
+    
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+    margin-left: 400px;
+    margin-top: 90px;
+}
+
+h1{
+    text-align: center;
+    color: #5a2dfd;
+}
+
+#form button{
+    background-color: #5a2dfd;
+    color: white;
+    border:1px solid #5a2dfd;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 20px;
+    padding:10px;
+    margin:20px 0px;
+    width: 400px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:15px;
+
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size:20px;
+    margin-top:5px;
+    padding:10px;
+    border:1px solid #fd2dfd;
+}
+
+.input-group input:focus{
+    outline:0;
+}
+
+.input-group .error{
+    color:red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.success iput{
+    border-color: green;
+}
+
+.input-group.error input{
+    border-color:red;
+}
